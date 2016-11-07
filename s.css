@@ -1,6 +1,6 @@
 body{
     margin:0;
-    font-family: 'Lato';
+    font-family:'Lato';
 }
 
 .top-header{
@@ -24,26 +24,63 @@ a {
     float:right;
 
 }
-ul{
+ul#headlist{
     display: inline-block;
     margin: 0;
     padding: 0;
 }
-ul>li{
+ul#headlist>li{
     text-decoration: none;
     color: #ffffff;
     display: inline-block;
     font-size: 18px;
 
 }
+ul#headlist>li:hover{
+    color: #ffff29;
+}
 .navbar{
     width:100%;
     height:120px;
-    background-color: red;
 }
 .nav-menu{
     width: 1100px;
     height: 120px;
     margin: auto;
-    background-color: pink;
+    text-align: center;
+
+}
+ul#navlist {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul#navlist>li{
+
+    float: left;
+    padding-top: 50px;
+    width: 170px;
+    height: 70px;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 20px;
+}
+ul#navlist>li > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+}
+ul#navlist>li > ul > li{
+    padding-top: 40px;
+    position: relative;
+    height: 50px;
+}
+ul#navlist>li:hover >ul{
+    display: block;
+}
+ul#navlist>li>ul>li:hover {
+    background-color: powderblue;
 }
