@@ -163,17 +163,19 @@ input:hover{
 
 }
 .panel{
-    background-color: blue;
     height: 250px;
     width: 100%;
     padding-bottom: 70px;
 }
 .panel-content{
-    background-color: violet;
-    height: 250px;
-    width: 800px ;
+    background-color: deepskyblue;
+    height: 200px;
+    width: 1000px ;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 2px;
+    padding-top: 10px;
+    text-align: center;
 
 }
 .footer1{
@@ -184,7 +186,7 @@ input:hover{
 .footer2{
     width: 100%;
     height: 70px;
-    background-color: dimgrey;
+    background-color: #171717;
 }
 
      /* jssor slider bullet navigator skin 05 css */
@@ -282,4 +284,28 @@ h4{
 }
 .co input:hover{
     background-color: lightblue ;
+    color: #ffffff;
+}
+
+h5{
+    color: #ffffff;
+    font-size: 18px;
+}
+.panel-content p{
+    color: #ffffff;
+}
+.panel-content input{
+    height: 50px;
+    width: 300px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 18px;
+    background-color: deepskyblue ;
+}
+.panel-content input:hover{
+    background-color: lightblue;
+    color: black;
+
 }
